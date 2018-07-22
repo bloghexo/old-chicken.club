@@ -17,3 +17,12 @@ while a <= 7:
     a = a + 1
 print("循环结束 a = %d" % a)
 ```
+## while累加求和（0～100）
+```
+result = 0
+a = 0
+while a <= 100:
+    result += a
+    a = a + 1
+print("0~100的数字求和 = %d" % result)
+```
