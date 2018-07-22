@@ -17,12 +17,22 @@ while a <= 7:
     a = a + 1
 print("循环结束 a = %d" % a)
 ```
-## while累加求和（0～100）
+## while累加求和（0～50）
 ```
 result = 0
 a = 0
-while a <= 100:
+while a <= 50:
     result += a
     a = a + 1
 print("0~100的数字求和 = %d" % result)
+```
+## while偶数求和
+```
+result = 0
+a = 0
+while a <= 50:
+    if a % 2 == 0:
+        result += a
+    a += 1
+print("0~50偶数求和结果 = %d" % result)
 ```
