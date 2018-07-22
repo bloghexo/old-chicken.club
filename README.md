@@ -36,3 +36,24 @@ while a <= 50:
     a += 1
 print("0~50偶数求和结果 = %d" % result)
 ```
+## while break关键字
+```
+a = 0
+while a < 10:
+    if a == 5:
+        break
+    print(a)
+    a += 1
+print("GG")
+```
+## while continue关键字
+```
+a = 0
+while a < 10:
+    if a == 5:
+        a += 1
+        continue
+    print(a)
+    a += 1
+print("GG")
+```
